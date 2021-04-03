@@ -10,7 +10,8 @@ if (arr[center] == value)
 index = center;
 if (arr[center] > value)
 j = center - 1;
-else i = center + 1;
+else 
+i = center + 1;
 }
 for (int i = 0; i < size; i++) {
 if (arr[index] == arr[i])
