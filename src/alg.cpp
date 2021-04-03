@@ -5,7 +5,7 @@ int i = 0, j = size - 1;
 int index = -1;
 int s = 0;
 while (i < j) {
-int center = i + abs (j - i) / 2;
+int center = i + (j - i) / 2;
 if (arr[center] == value)
 index = center;
 if (arr[center] > value)
